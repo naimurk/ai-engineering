@@ -21,22 +21,8 @@ elif api_key.strip() != api_key:
     print("An API key was found, but it looks like it might have space or tab characters at the start or end - please remove them - see troubleshooting notebook")
 else:
     print("API key found and looks good so far!")
-
-
-
-
     message = "Hello, GPT! This is my first ever message to you! Hi!"
-
-
-
-
-
     openai = OpenAI()
-
-  
-
-
-
 ed = fetch_website_contents("https://naimurrahman.vercel.app/")
 
 
@@ -50,8 +36,6 @@ Respond in markdown. Do not wrap the markdown in a code block - respond just wit
 
 
 user_prompt_prefix = ed
-
-
 
 
 messages = [
