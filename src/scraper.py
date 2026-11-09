@@ -1,3 +1,4 @@
+# this package 
 from bs4 import BeautifulSoup
 import requests
 
@@ -23,6 +24,7 @@ def fetch_website_contents(url):
     else:
         text = ""
     return (title + "\n\n" + text)[:2_000]
+
 
 
 def fetch_website_links(url):
