@@ -8,8 +8,11 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=2.7.0",
     "beautifulsoup4>=4.15.0",
+    "gradio>=6.31.0",
     "ipython>=9.18.1",
+    "litellm>=1.108.4",
     "openai>=3.46.0",
     "python-dotenv>=1.2.4",
     "requests>=2.34.2",

@@ -1,0 +1,70 @@
+{
+  "history": [
+    {
+      "role": "user",
+      "metadata": null,
+      "content": [
+        {
+          "text": "hello ",
+          "type": "text"
+        }
+      ],
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": [
+        {
+          "text": "You said $hello and the history is $[]",
+          "type": "text"
+        }
+      ],
+      "options": null
+    },
+    {
+      "role": "user",
+      "metadata": null,
+      "content": [
+        {
+          "text": "say",
+          "type": "text"
+        }
+      ],
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": [
+        {
+          "text": "You said $say and the history is $[{'role': 'user', 'metadata': None, 'content': [{'text': 'hello ', 'type': 'text'}], 'options': None}, {'role': 'assistant', 'metadata': None, 'content': [{'text': 'You said $hello and the history is $[]', 'type': 'text'}], 'options': None}]",
+          "type": "text"
+        }
+      ],
+      "options": null
+    },
+    {
+      "role": "user",
+      "metadata": null,
+      "content": [
+        {
+          "text": "i am fine",
+          "type": "text"
+        }
+      ],
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": [
+        {
+          "text": "You said $i am fine and the history is $[{'role': 'user', 'metadata': None, 'content': [{'text': 'hello ', 'type': 'text'}], 'options': None}, {'role': 'assistant', 'metadata': None, 'content': [{'text': 'You said $hello and the history is $[]', 'type': 'text'}], 'options': None}, {'role': 'user', 'metadata': None, 'content': [{'text': 'say', 'type': 'text'}], 'options': None}, {'role': 'assistant', 'metadata': None, 'content': [{'text': \"You said $say and the history is $[{'role': 'user', 'metadata': None, 'content': [{'text': 'hello ', 'type': 'text'}], 'options': None}, {'role': 'assistant', 'metadata': None, 'content': [{'text': 'You said $hello and the history is $[]', 'type': 'text'}], 'options': None}]\", 'type': 'text'}], 'options': None}]",
+          "type": "text"
+        }
+      ],
+      "options": null
+    }
+  ]
+}
